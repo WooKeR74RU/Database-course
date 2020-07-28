@@ -1,0 +1,1 @@
+SELECT Contact.LastName, Contact.FirstName, Employee.Title, Contact.Phone FROM HumanResources.Employee INNER JOIN Person.Contact ON Employee.ContactID = Contact.ContactID WHERE Contact.Phone IS NOT NULL
